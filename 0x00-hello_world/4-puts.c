@@ -1,17 +1,14 @@
-#include <stdio.h>                                                                                                                      
-/**                                                                                                                                     
-* main - This program prints "Programming is like building a multilingual puzzle"                                                       
-*/                                                                                                                                      
-int main(void)                                                                                                                          
-{                                                                                                                                       
-root@a56669d72bbe:/alx-low_level_programming/0x00-hello_world# cat > 4-puts.c                                                           
-#include <stdio.h>                                                                                                                      
-/**                                                                                                                                     
-* main - This program prints "Programming is like building a multilingual puzzle"                                                       
-* Return: Always 0 (Success)                                                                                                            
-*/                                                                                                                                      
-int main(void)                                                                                                                          
-{    
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+#include <stdio.h>
+
+/**
+ * main - Prints "Programming is like building a multilingual
+ *                puzzle, followed by a new line.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+
+	return (0);
 }
