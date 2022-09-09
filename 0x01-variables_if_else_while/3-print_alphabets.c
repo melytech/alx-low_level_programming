@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
-* main - Write a program that prints the alphabet in lowercase, and then in uppercase
-* Return: Always true
-/*
+ * main - Prints all the alphabets
+ * Return: Returns true always
+ */
 int main(void)
 {
-char alpha = 97;
+	char alpha = 97;
 
 	while (alpha <= 122)
 	{
