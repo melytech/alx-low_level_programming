@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - this program tells if a random number is positive or negative 
+ * main - positive or negative 
  * Return: Always true
  */
-int main (void)
+int main(void)
 {
 	int n;
 
