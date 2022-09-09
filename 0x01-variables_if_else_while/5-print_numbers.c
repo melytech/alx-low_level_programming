@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - Write a program that prints all single digit numbers 
-* Return: Returns always true
-*/
+ * main - Prints Nos 0-9
+ * Return: Returns true always
+ */
 int main(void)
 {
 	int n;
