@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - positive or negative 
- * Return: Always true
+ * main - this program tells if a random number is positive or negative
+ * Return: Returns true always
  */
 int main(void)
 {
