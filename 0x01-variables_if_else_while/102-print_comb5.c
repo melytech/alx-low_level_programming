@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Prints pair of numbers
- * Return: Returns always true
+ * Return: Return always true
  */
 int main(void)
 {
@@ -13,31 +13,29 @@ int main(void)
 		{
 			for (c = a; c <= 9; c++)
 			{
-				for (d = (d == 10 && b == 0) ? 0 : (b + 1); d <= 9; d++)
+				for (d = 0; d <= 9; d++)
 				{
+					if (((c + d) > (a + b) && c >= a) || a < c)
+					{
 					putchar((a % 10) + '0');
 					putchar((b % 10) + '0');
 					putchar(' ');
 					putchar((c % 10) + '0');
 					putchar((d % 10) + '0');
 
-					if (a == 9 && b == 8 && c == 9 && d == 9)
+					if (a + b + c + d == 35 && a == 9)
+					{
 						break;
-
-					putchar(',');
-					putchar(' ');
+					}
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					}
 				}
-
-				if (a == 9 && b == 8 && c == 9 && d == 9)
-					break;
 			}
-
-			if (a == 9 && b == 8 && c == 9 && d == 9)
-				break;
 		}
-
-		if (a == 9 && b == 8 && c == 9 && d == 9)
-			break;
 	}
 
 	putchar('\n');
