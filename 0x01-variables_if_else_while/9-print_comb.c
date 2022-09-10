@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - Prints single digit numbers
+ * main - prints all possible combinations of single-digit numbers
  * Return: Returns always true
  */
 int main(void)
 {
 	int i;
 
-	for (i = 0; i < 10; i++) 
+	for (i = 0; i < 10; i++)
 	{
 		putchar((i % 10) + '0');
 
